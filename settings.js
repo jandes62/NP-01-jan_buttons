@@ -4,11 +4,11 @@ const APP_DIR = __dirname
 const EXIT_VU_CMD = `bash ${APP_DIR}/commands/exit_vu_meter.sh || true`
 const GPIO = {
   buttons: {
-    play: 27,
-    shutdown: 26,
+    play: 17,
+    shutdown: 3,
     action: 24,
     previous: 22,
-    next: 17,
+    #next: 17,
   },
   leds: {
     play: 12,
