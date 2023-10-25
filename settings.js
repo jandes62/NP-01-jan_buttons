@@ -6,9 +6,9 @@ const GPIO = {
   buttons: {
     play: 17,
     shutdown: 3,
-    action: 24,
-    previous: 22,
-    #next: 17,
+//    action: 24,
+//    previous: 22,
+//    next: 17,
   },
   leds: {
     play: 12,
@@ -37,6 +37,7 @@ const BUTTONS = [
     clickCmd: 'systemctl poweroff',
     holdCmd: {cmd: 'systemctl reboot', once: true},
   },
+/*
   {
     pin: GPIO.buttons.action,
     clickCmd: EXIT_VU_CMD,
@@ -68,6 +69,7 @@ const BUTTONS = [
       },
     },
   },
+*/
 ]
 
 module.exports = {
