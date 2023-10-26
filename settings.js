@@ -20,7 +20,7 @@ const BUTTONS = [
     pin: GPIO.buttons.play,
     clickCmd: 'volumio toggle',
     holdCmd: {
-      ifPlay: {
+/*      ifPlay: {
         cmd: `${EXIT_VU_CMD}; node ${APP_DIR}/commands/toggle-stop-after-current.js`,
         once: true,
         async: true,
@@ -30,7 +30,7 @@ const BUTTONS = [
         once: true,
         long: true,
       },
-    },
+*/    },
   },
   {
     pin: GPIO.buttons.shutdown,
