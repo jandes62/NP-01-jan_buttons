@@ -29,8 +29,8 @@ const BUTTONS = [
         cmd: `node ${APP_DIR}/commands/play-playlist.js "$(cat ${APP_DIR}/commands/selected-playlist.txt)"`,
         once: true,
         long: true,
-      },
-*/    },
+*/      },
+    },
   },
   {
     pin: GPIO.buttons.shutdown,
