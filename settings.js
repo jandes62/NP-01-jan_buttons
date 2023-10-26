@@ -10,9 +10,9 @@ const GPIO = {
 //    previous: 22,
 //    next: 17,
   },
-  leds: {
-    play: 12,
-  },
+//  leds: {
+//    play: 12,
+//  },
 }
 
 const BUTTONS = [
@@ -35,7 +35,7 @@ const BUTTONS = [
   {
     pin: GPIO.buttons.shutdown,
     clickCmd: 'systemctl poweroff',
-    holdCmd: {cmd: 'systemctl reboot', once: true},
+    holdCmd: {cmd: 'systemctl reboot 6', once: true},
   },
 /*
   {
