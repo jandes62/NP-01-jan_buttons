@@ -10,9 +10,9 @@ const GPIO = {
 //    previous: 22,
 //    next: 17,
   },
-//  leds: {
-//    play: 12,
-//  },
+  leds: {
+    play: 0,
+  },
 }
 
 const BUTTONS = [
